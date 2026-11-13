@@ -8,7 +8,7 @@ First Google Cloud's London-region outage disrupted major UK banking services, a
 
 This is why open-source tools need to replace critical closed dependencies wherever practical, with genuine portability, independent recovery and proper security oversight.
 
-I've always been fascinated that a Finnish 🇫🇮 guy, Linus Torvalds, created the Linux kernel and then Git. Git is distributed, so no single central machine has to hold the only copy of a project's history. Computers can work in isolation, commit changes locally, and verify the integrity of the histories they exchange. It is free to learn; and what you build can run locally without the internet if you design it to do so.
+Linus Torvalds, a Finnish 🇫🇮 software developer, created the Linux kernel and later Git. Git uses distributed version control, so a central machine does not have to hold the only copy of a project's history. Computers can work in isolation, commit changes locally, and compare the integrity of histories exchanged with other computers. Git is free to learn and use, and software designed for offline operation can run locally without an internet connection.
 
 AI is heading the same way as enterprise email and video calls: a few major providers, operating across a few major clouds. Claude is offered through Amazon, Google and Microsoft cloud platforms. OpenAI remains closely tied to Microsoft, although its 2026 agreement also permits service across other cloud providers. Meanwhile, the UK's Competition and Markets Authority is examining Microsoft's business software ecosystem, including bundling, interoperability and customer choice.
 
