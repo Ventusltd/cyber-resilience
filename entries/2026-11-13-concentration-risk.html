@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="13 November 2026: fact-checked research on Google Cloud, Binance and Microsoft incidents and reducing single-provider dependencies.">
+<title>Concentration risk — Cyber Resilience Log</title><link rel="stylesheet" href="../assets/log.css"></head><body>
+<header><div class="wrap breadcrumb"><a href="../">← Cyber Resilience Log</a> · GLOBALGRID2050</div></header>
+<main class="wrap prose"><div class="article-head"><div class="date"><time datetime="2026-11-13">13 November 2026</time> · Research note</div>
+<h1>Cloud outages, the Binance theft and the case for distributed resilience</h1></div>
+<section aria-labelledby="argument"><h2 id="argument">The argument</h2>
+<p>First Google Cloud's London-region outage disrupted major UK banking services, and now a Microsoft 365 outage has affected organisations worldwide. In between came the largest cryptocurrency theft reported to date: approximately $6.3 billion stolen from Binance, with a compromised DevOps engineer's laptop identified in Binance's preliminary investigation. The incidents had different causes, but all expose the consequences of concentrated dependencies.</p>
+<p>This is why open-source tools need to replace critical closed dependencies wherever practical, with genuine portability, independent recovery and proper security oversight.</p>
+<p>I've always been fascinated that a Finnish 🇫🇮 guy, Linus Torvalds, created the Linux kernel and then Git. Git is distributed, so no single central machine has to hold the only copy of a project's history. Computers can work in isolation, commit changes locally, and verify the integrity of the histories they exchange. It is free to learn; and what you build can run locally without the internet if you design it to do so.</p>
+<p>AI is heading the same way as enterprise email and video calls: a few major providers, operating across a few major clouds. Claude is offered through Amazon, Google and Microsoft cloud platforms. OpenAI remains closely tied to Microsoft, although its 2026 agreement also permits service across other cloud providers. Meanwhile, the UK's Competition and Markets Authority is examining Microsoft's business software ecosystem, including bundling, interoperability and customer choice.</p>
+<p>There's a familiar fix. Just as special-purpose vehicles are used to ring-fence project liabilities, critical digital services should isolate their failure domains. R&amp;D and key procurement should be spread beyond the largest firms, with proper oversight, independently usable alternatives and tested recovery arrangements, so one provider's failure stays contained.</p>
+</section>
+<section aria-labelledby="facts"><h2 id="facts">Evidence and limitations</h2>
+<table class="facts"><tbody>
+<tr><th scope="row">20 October 2026 · Google Cloud</th><td>A London-region availability-zone power and control-system failure disrupted dependent services, including UK banking. An infrastructure outage, not evidence of a cyberattack. <a href="https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj">Google incident report</a>.</td></tr>
+<tr><th scope="row">29 October 2026 · Binance</th><td>The FBI attributed more than US$6 billion in stolen cryptocurrency to North Korean operators. Binance preliminarily identified a compromised DevOps laptop as a possible route; forensic certainty is limited. <a href="https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack/layout_view">FBI alert</a>.</td></tr>
+<tr><th scope="row">12–13 November 2026 · Microsoft</th><td>A Microsoft 365 disruption affected Outlook, Teams, Copilot and connected services internationally. Microsoft reported no indication of malicious activity. <a href="https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/">Reuters reporting</a>.</td></tr>
+<tr><th scope="row">Competition and suppliers</th><td>The CMA's Microsoft business-software investigation was ongoing, with a proposed strategic market status decision, not a final finding. <a href="https://www.gov.uk/cma-cases/microsofts-business-software-ecosystem">CMA case</a>.</td></tr>
+<tr><th scope="row">Git and local operation</th><td>Git's distributed, content-hashed history supports offline working and integrity comparisons; it does not automatically establish identity or trusted provenance. <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Git documentation</a>.</td></tr>
+</tbody></table>
+<p class="callout">These incidents are not all cyberattacks, and open-source software is not inherently more secure. The relevant common principle is failure containment, portable workloads, independently verified backups and recoverable operations.</p>
+</section>
+<section aria-labelledby="principles"><h2 id="principles">Practical resilience principles</h2>
+<ol><li>Model the loss of a provider, region, identity system and network connection, then rehearse restoration.</li>
+<li>Maintain independent, recoverable source code, configuration, offline procedures and backups.</li>
+<li>Keep mirrors and recovery credentials outside the same control plane.</li>
+<li>Use inspectable, open standards where appropriate without assuming open source itself guarantees safety.</li>
+<li>Verify provenance with trusted signatures, reviewed changes and reproducible builds.</li>
+<li>Spread material procurement and R&amp;D dependencies, with explicit supplier exit plans.</li>
+<li>Distinguish operational outages from malicious compromise when designing controls.</li></ol></section>
+<section aria-labelledby="record"><h2 id="record">Full research record</h2>
+<p>The companion research note includes the underlying case-by-case table, chronological record and 14 source references. <a href="https://github.com/Ventusltd/cyber-resilience/blob/main/research/2026-11-13-concentration-risk.md">Read the full evidence and source list</a>.</p>
+<p>Version history and corrections are recorded in <a href="https://github.com/Ventusltd/cyber-resilience">the public Git repository</a>.</p></section></main>
+<footer><div class="wrap">Funded by VENTUS LTD · General technical documentation and research. Claims are dated 13 November 2026.</div></footer>
+</body></html>
