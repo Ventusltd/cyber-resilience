@@ -16,6 +16,7 @@ The static, dated log is published from `index.html` when GitHub Pages is enable
 
 - Log index: https://ventusltd.github.io/cyber-resilience/
 - First dated entry: https://ventusltd.github.io/cyber-resilience/entries/2026-11-13-concentration-risk.html
+- 14 November 2026, external reading: https://ventusltd.github.io/cyber-resilience/entries/2026-11-14-cloud-sovereignty-recognition.html (links to the Compare the Cloud article on UK recognition under the EU cloud sovereignty levels)
 - Complete fact-check and sources remain in `research/2026-11-13-concentration-risk.md`.
 
 The HTML pages and local stylesheet have no analytics, cookies, third-party scripts or build-time dependencies. Add future dated entries without deleting earlier versions. The GlobalGrid2050 homepage is maintained separately in `Ventusltd/globalgrid2050-homepage` and pinned into the domain publisher `Ventusltd/globalgrid2050`.
